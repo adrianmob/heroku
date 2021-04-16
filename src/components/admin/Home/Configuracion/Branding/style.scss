@@ -1,0 +1,91 @@
+main {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+.branding__form {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+  margin-top: 56px;
+  max-width: inherit;
+}
+
+.branding__button {
+  height: 55px !important;
+  background-color: #f6f5f5;
+  box-shadow: none !important;
+  opacity: 0.7;
+  width: 282px;
+  display: flex !important;
+  justify-content: space-between !important;
+
+  p {
+    text-transform: capitalize;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  }
+
+  .icon {
+    color: #fcbb13;
+  }
+}
+
+.branding_container_colors {
+  display: flex;
+  position: relative;
+}
+
+.branding__color {
+  width: 33px;
+  height: 33px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.color_active {
+  border: 2px solid #2f2f2f;
+}
+
+.branding__picker_paleta {
+  position: absolute;
+  z-index: 100;
+}
+
+.branding__picker_cover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.branding__input {
+  background-color: #f6f6f6;
+  height: 33px;
+  padding: 3px 0 2px 33px;
+  border: 1px solid white;
+  width: 288px;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #284056;
+}
+
+.branding__container_save {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  padding: 10px 0;
+
+  .branding__save_btn {
+    text-transform: capitalize;
+    width: 323px;
+    padding: 11px 0 !important;
+    font-size: 17px;
+    color: #fefefe;
+  }
+}

@@ -1,0 +1,82 @@
+main {
+    max-width: 1192px;
+    margin: 0 auto;
+}
+
+.whitelabel__form {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+    margin-top: 56px;
+    max-width: inherit;
+}
+
+.whitelabel__button {
+    color: #fcbb13;
+}
+
+button.dt-button,
+div.dt-button,
+a.dt-button,
+input.dt-button {
+    color: #FCBB13 !important;
+    margin-right: -0.667em;
+    background-color: #FFFFFF !important;
+    background: none !important;
+    border: none !important;
+}
+
+table.dataTable tbody tr {
+    background-color: #FFFFFF;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color: #FFFFFF !important;
+    background: none !important;
+    border: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.5em 0em
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+    font-size: smaller !important;
+    color: #284056 !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none !important;
+}
+
+.tableEdit {
+    color: #FCBB13;
+}
+
+.color_font_text {
+    color: #284056;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border-bottom: 1px solid #FCBB13 !important;
+}
+
+table.dataTable thead .sorting_desc {
+    filter: drop-shadow(2px 4px 6px gray);
+}
+
+table.dataTable thead .sorting_asc {
+    filter: drop-shadow(2px 4px 6px gray);
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}

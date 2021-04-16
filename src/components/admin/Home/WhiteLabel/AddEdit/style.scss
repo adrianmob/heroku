@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    max-width: 1192px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header__menuPrincipal {
+    display: flex;
+    padding: 8px 0;
+}
+
+.active {
+    color: #fcbb13 !important;
+}
+
+.form__edition {
+    display: flex;
+    max-width: 1192px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+span.MuiSwitch-track {
+    background-color: #FCBB13 !important;
+}
+
+span.MuiSwitch-thumb {
+    background-color: #284056 !important;
+}
+
+.MuiButton-contained {
+    color: #FFFFFF !important;
+}

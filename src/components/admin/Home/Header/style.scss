@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  max-width: 1192px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.header__menuPrincipal {
+  display: flex;
+  padding: 15px 0;
+}
+
+.header__botonera {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.header__btn_menu {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  color: #284056 !important;
+  opacity: 0.8 !important;
+  letter-spacing: 0px !important;
+}
+
+.header__container_logo {
+  width: 176px;
+  img {
+    width: 100%;
+  }
+}
+
+.header__user {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.active {
+  color: #fcbb13 !important;
+}

@@ -1,0 +1,46 @@
+.terminos__container {
+  margin: 40px 0 0 0;
+}
+.terminos__titulo {
+  font-weight: 600;
+  font-size: 22px;
+  color: #284056;
+  margin: 0 0 9px 0;
+}
+
+.terminos__subtitulo {
+  font-weight: normal;
+  font-size: 18px;
+  color: #284056;
+  margin: 0 0 40px 0;
+}
+
+.terminos__form {
+  display: flex;
+  align-items: center;
+
+  .terminos_contInput {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+    .terminos__labelInput {
+      font-weight: bold;
+      font-size: 16px;
+      color: #284056;
+    }
+
+    .terminos__input {
+      width: 390px;
+      height: 200px;
+    }
+
+    .terminos__btn {
+      width: 223px !important;
+      margin-top: 24px !important;
+      text-transform: capitalize !important;
+      font-weight: 900 !important;
+      font-size: 16px !important;
+    }
+  }
+}

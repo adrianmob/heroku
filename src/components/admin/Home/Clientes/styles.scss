@@ -1,0 +1,30 @@
+.clientes__container {
+  margin: 30px auto;
+}
+.clientes__tarjetasInfo {
+  display: flex;
+  .clientes__tarjetaItem {
+    width: 217px;
+    height: 108px;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.15),
+      5px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 21px;
+    text-align: center;
+    margin: 0 36px 0 0;
+
+    .clientes__tarjetaTitulo {
+      font-weight: 900;
+      font-size: 14px;
+      color: #284056;
+      margin: 0 0 12px 0;
+    }
+
+    .clientes__tarjetaData {
+      font-weight: bold;
+      font-size: 30px;
+      color: #fcbb13;
+      margin: 0;
+    }
+  }
+}
